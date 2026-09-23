@@ -19,6 +19,7 @@ public class Weight {
         }
  
     }
-    if (pounds > 0) 
+    if (pounds > 0){
+        this.pounds = pounds;
     }
 }
