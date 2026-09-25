@@ -23,7 +23,7 @@ public class Weight {
         return this.ounces + 16 * this.pounds;
     }
     
-    public boolean (isHeavier(Weight other)){
+    public boolean isHeavier(Weight other){
         int totalW = this.totalOunces();
         int otherW = other.totalOunces;
 
@@ -43,7 +43,7 @@ public class Weight {
         System.out.println(this.pounds + " pounds," + this.ounces + " ounces")
     }
 
-    
+
 
     }
 }
